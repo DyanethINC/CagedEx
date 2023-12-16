@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 769">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #df87ff;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #999;
+      }
+
+      .cls-3 {
+        fill: #545454;
+      }
+
+      .cls-5 {
+        fill: #171717;
+        stroke: #df87ff;
+        stroke-miterlimit: 10;
+        stroke-width: 9px;
+      }
+
+      .cls-4 {
+        fill: #d154ff;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="cls-3" x="319.91" y="62.5" width="11.47" height="644"/>
+    <rect class="cls-3" x="498.59" y="62.5" width="11.47" height="644"/>
+    <rect class="cls-3" x="677.27" y="62.5" width="11.47" height="644"/>
+    <rect class="cls-3" x="855.94" y="62.5" width="11.47" height="644"/>
+    <rect class="cls-3" x="1034.62" y="62.5" width="11.47" height="644"/>
+  </g>
+  <g>
+    <rect class="cls-2" x="219" y="146.11" width="927.99" height="8.6"/>
+    <rect class="cls-2" x="219" y="239.74" width="927.99" height="8.6"/>
+    <rect class="cls-2" x="219" y="333.38" width="927.99" height="8.6"/>
+    <rect class="cls-2" x="219" y="427.02" width="927.99" height="8.6"/>
+    <rect class="cls-2" x="219" y="520.66" width="927.99" height="8.6"/>
+    <rect class="cls-2" x="219" y="614.3" width="927.99" height="8.6"/>
+  </g>
+  <circle class="cls-4" cx="415" cy="150.5" r="30"/>
+  <circle class="cls-4" cx="415" cy="337.5" r="30"/>
+  <circle class="cls-1" cx="415" cy="431.5" r="30"/>
+  <circle class="cls-1" cx="415" cy="525.5" r="30"/>
+  <circle class="cls-1" cx="415" cy="620" r="30"/>
+  <circle class="cls-4" cx="772" cy="341.5" r="30"/>
+  <circle class="cls-5" cx="597" cy="244.5" r="30"/>
+  <circle class="cls-1" cx="955" cy="244.5" r="30"/>
+  <circle class="cls-1" cx="955" cy="150.5" r="30"/>
+  <circle class="cls-1" cx="774" cy="427.5" r="30"/>
+  <circle class="cls-5" cx="955" cy="524.5" r="30"/>
+  <circle class="cls-1" cx="955" cy="622.5" r="30"/>
+</svg>

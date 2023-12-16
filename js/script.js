@@ -1,10 +1,11 @@
 const letters = [
-  { letter: 'C', image: 'img/C-Major.svg' },
-  { letter: 'A', image: 'img/A-Major.svg' },
-  { letter: 'G', image: 'img/G-Major.svg' },
-  { letter: 'E', image: 'img/E-Major.svg' },
-  { letter: 'D', image: 'img/D-Major.svg' }
+  { letter: 'C', majorImage: 'img/C-Major.svg', minorImage: 'img/C-Minor.svg' },
+  { letter: 'A', majorImage: 'img/A-Major.svg', minorImage: 'img/A-Minor.svg' },
+  { letter: 'G', majorImage: 'img/G-Major.svg', minorImage: 'img/G-Minor.svg' },
+  { letter: 'E', majorImage: 'img/E-Major.svg', minorImage: 'img/E-Minor.svg' },
+  { letter: 'D', majorImage: 'img/D-Major.svg', minorImage: 'img/D-Minor.svg' }
 ];
+
 const letterElement = document.getElementById('letter');
 const imageElement = document.getElementById('image');
 const playStopButton = document.getElementById('playStopButton');
@@ -13,16 +14,22 @@ let previousIndex; // Variable pour stocker l'index de la lettre précédente
 
 function displayLetter() {
   let randomIndex;
-  
+
   do {
     randomIndex = Math.floor(Math.random() * letters.length);
-  } while (randomIndex === previousIndex); // Continue à générer un nouvel index tant qu'il est égal à l'index précédent
-  
-  previousIndex = randomIndex; // Met à jour l'index précédent
-  
+  } while (randomIndex === previousIndex);
+
+  previousIndex = randomIndex;
+
   const currentLetter = letters[randomIndex];
   letterElement.textContent = currentLetter.letter;
-  imageElement.src = currentLetter.image;
+
+  const chordType = document.getElementById('chordType').value;
+  if (chordType === 'major') {
+    imageElement.src = currentLetter.majorImage;
+  } else if (chordType === 'minor') {
+    imageElement.src = currentLetter.minorImage;
+  }
 }
 
 

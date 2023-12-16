@@ -4,7 +4,7 @@
 <head>
   <title>App Lettres</title>
   <link rel="stylesheet" href="style/normalize.css">
- 
+
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/milligram@1.4.1/dist/milligram.min.css">
   <link rel="stylesheet" href="style/style.css">
 
@@ -35,6 +35,13 @@
                 <div class="control">
                   <input class="form-control" type="number" id="measures" min="1" value="1">
                 </div>
+              </div>
+              <div class="column">
+                <label class="form-label" for="chordType">Type d'accord :</label>
+                <select id="chordType">
+                  <option value="major">Majeur</option>
+                  <option value="minor">Mineur</option>
+                </select>
               </div>
             </div>
             <div class="btn-group">

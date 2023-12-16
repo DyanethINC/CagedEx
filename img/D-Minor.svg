@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 768">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #999;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: gold;
+      }
+
+      .cls-3 {
+        fill: #fff1a6;
+      }
+
+      .cls-4 {
+        fill: #545454;
+      }
+
+      .cls-5 {
+        fill: #171717;
+        stroke: #fff1a6;
+        stroke-miterlimit: 10;
+        stroke-width: 9px;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="cls-4" x="319.91" y="63" width="11.47" height="644"/>
+    <rect class="cls-4" x="498.59" y="63" width="11.47" height="644"/>
+    <rect class="cls-4" x="677.27" y="63" width="11.47" height="644"/>
+    <rect class="cls-4" x="855.94" y="63" width="11.47" height="644"/>
+    <rect class="cls-4" x="1034.62" y="63" width="11.47" height="644"/>
+  </g>
+  <g>
+    <rect class="cls-1" x="219" y="146.61" width="927.99" height="8.6"/>
+    <rect class="cls-1" x="219" y="240.24" width="927.99" height="8.6"/>
+    <rect class="cls-1" x="219" y="333.88" width="927.99" height="8.6"/>
+    <rect class="cls-1" x="219" y="427.52" width="927.99" height="8.6"/>
+    <rect class="cls-1" x="219" y="521.16" width="927.99" height="8.6"/>
+    <rect class="cls-1" x="219" y="614.8" width="927.99" height="8.6"/>
+  </g>
+  <circle class="cls-3" cx="597" cy="245" r="30"/>
+  <circle class="cls-3" cx="415" cy="338" r="30"/>
+  <circle class="cls-5" cx="416" cy="433" r="30"/>
+  <circle class="cls-3" cx="415" cy="526" r="30"/>
+  <circle class="cls-3" cx="597.5" cy="619.5" r="30"/>
+  <circle class="cls-2" cx="772" cy="342" r="30"/>
+  <circle class="cls-2" cx="597.5" cy="147.5" r="30"/>
+  <circle class="cls-5" cx="955" cy="245" r="30"/>
+  <circle class="cls-3" cx="955" cy="151" r="30"/>
+  <circle class="cls-3" cx="955" cy="525" r="30"/>
+  <circle class="cls-3" cx="955.5" cy="432.5" r="30"/>
+  <circle class="cls-3" cx="955" cy="623" r="30"/>
+</svg>
